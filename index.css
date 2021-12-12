@@ -1,0 +1,39 @@
+.profile_pic {
+	border-radius: 50%;
+	width: 256px;
+	height: 300px;
+	float: left;
+	overflow: auto;
+	position: fixed;
+	top: 50px;
+	left: 30px;
+	bottom: 0;
+	right: 0;
+}
+
+.description {
+	font-family: 'Work Sans', sans-serif;
+	position: fixed;
+	top: 10rem;
+	right: 0.1rem;
+	bottom: 0;
+	left: 20rem;
+	float: right;
+	overflow: auto;
+}
+
+.quote {
+	font-family: 'Corinthia', cursive;
+	font-size: 40px;
+	position: fixed;
+	top: 20rem;
+	bottom: 0;
+	left: 20rem;
+	right: 0;
+	color: yellow;
+	font-weight: bold;
+}
+
+.index {
+	border-bottom: 1px solid yellow;
+}

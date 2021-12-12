@@ -1,0 +1,52 @@
+
+.name {
+	font-weight: 300px;
+	font-size : 2rem;
+}
+h1{
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	color: lightyellow;
+	text-align: center;
+}
+
+h2 {
+	padding:1px ;
+	color: yellow;
+	font-weight: bold;
+	/* padding-bottom:50px ; */
+	/* margin: 1px; */
+}
+
+section {
+	font-family: 'Work Sans', sans-serif;
+}
+
+*{
+	box-sizing: border-box;
+}
+
+section:nth-of-type(odd) > img {
+    float: left;
+	overflow: auto;
+    margin: 0 24px 24px 0;
+}
+
+section img {
+	height: 128px;
+}
+
+
+section:nth-of-type(even) > img {
+    float: right;
+	overflow: auto;
+	margin: 0 0 24px 24px;
+
+}
+
+section{
+	border-top: 1px solid black;
+	
+}
+.about {
+	border-bottom: 1px solid yellow;
+}
